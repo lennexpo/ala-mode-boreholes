@@ -415,10 +415,13 @@ section { padding: 7rem 5vw; }
 
 /* ── MAP ── */
 .map-wrap {
-  margin-top: 2rem;
+  margin-top: 3rem;
   border: 1px solid var(--border);
   border-radius: 2px;
   overflow: hidden;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .map-wrap iframe { display: block; filter: grayscale(0.3) invert(0.9) hue-rotate(180deg); }
 .map-link {
